@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\paulg\\TODOLIST\\TODOLIST\\TODOLIST\\TODOLIST.csproj": {}
+    "C:\\Users\\paulg\\OneDrive\\Documents\\GitHub\\todolist\\TODOLIST\\TODOLIST.csproj": {}
   },
   "projects": {
-    "C:\\Users\\paulg\\TODOLIST\\TODOLIST\\TODOLIST\\TODOLIST.csproj": {
+    "C:\\Users\\paulg\\OneDrive\\Documents\\GitHub\\todolist\\TODOLIST\\TODOLIST.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\paulg\\TODOLIST\\TODOLIST\\TODOLIST\\TODOLIST.csproj",
+        "projectUniqueName": "C:\\Users\\paulg\\OneDrive\\Documents\\GitHub\\todolist\\TODOLIST\\TODOLIST.csproj",
         "projectName": "TODOLIST",
-        "projectPath": "C:\\Users\\paulg\\TODOLIST\\TODOLIST\\TODOLIST\\TODOLIST.csproj",
+        "projectPath": "C:\\Users\\paulg\\OneDrive\\Documents\\GitHub\\todolist\\TODOLIST\\TODOLIST.csproj",
         "packagesPath": "C:\\Users\\paulg\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\paulg\\TODOLIST\\TODOLIST\\TODOLIST\\obj\\",
+        "outputPath": "C:\\Users\\paulg\\OneDrive\\Documents\\GitHub\\todolist\\TODOLIST\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\paulg\\AppData\\Roaming\\NuGet\\NuGet.Config",

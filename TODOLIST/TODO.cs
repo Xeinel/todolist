@@ -29,8 +29,26 @@ namespace TODOLIST
             sr.Close();
         }
 
-        public void Add(string things, string status = "NOT DONE")
+        public void Add()
         {
+            bool test = false;
+            string things;
+            string status = "NOT DONE";
+            do
+            {
+                Console.WriteLine("What do you want to add ?");
+                things = Console.ReadLine();
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine("{0} had been added to your todo list !", things);
+                Console.ForegroundColor = ConsoleColor.White;
+                Console.WriteLine("Do you want to add one more thing ? (y/n)");
+                string answ = Console.ReadLine();
+                if (answ == "y")
+                    test = true;
+                else
+                    test = false;
+
+            } while (test);
             todo.Add(things, status);
             Console.ForegroundColor = ConsoleColor.Cyan; 
             Console.WriteLine("Adding {0} to the todo list with the status : {1}...", things, status);

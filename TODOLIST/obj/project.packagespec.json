@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Users\\paulg\\TODOLIST\\TODOLIST\\TODOLIST\\TODOLIST.csproj",
+    "projectUniqueName": "C:\\Users\\paulg\\OneDrive\\Documents\\GitHub\\todolist\\TODOLIST\\TODOLIST.csproj",
     "projectName": "TODOLIST",
-    "projectPath": "C:\\Users\\paulg\\TODOLIST\\TODOLIST\\TODOLIST\\TODOLIST.csproj",
-    "outputPath": "C:\\Users\\paulg\\TODOLIST\\TODOLIST\\TODOLIST\\obj\\",
+    "projectPath": "C:\\Users\\paulg\\OneDrive\\Documents\\GitHub\\todolist\\TODOLIST\\TODOLIST.csproj",
+    "outputPath": "C:\\Users\\paulg\\OneDrive\\Documents\\GitHub\\todolist\\TODOLIST\\obj\\",
     "projectStyle": "PackageReference",
     "originalTargetFrameworks": [
       "net472"

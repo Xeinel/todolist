@@ -53,23 +53,7 @@ namespace TODOLIST
             
             if (a == 1)
             {
-                bool test = false;
-                do
-                {
-                    Console.WriteLine("What do you want to add ?");
-                    string things = Console.ReadLine();
-                    t.Add(things);
-                    Console.ForegroundColor = ConsoleColor.Green;
-                    Console.WriteLine("{0} had been added to your todo list !", things);
-                    Console.ForegroundColor = ConsoleColor.White;
-                    Console.WriteLine("Do you want to add one more thing ? (y/n)");
-                    string answ = Console.ReadLine();
-                    if (answ == "y")
-                        test = true;
-                    else
-                        test = false;
-
-                } while (test);
+                t.Add();
             }
             else if (a == 2)
                 Console.WriteLine("Which status do you want to modify ?");
