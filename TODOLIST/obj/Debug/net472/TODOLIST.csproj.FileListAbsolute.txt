@@ -1,0 +1,9 @@
+C:\Users\paulg\TODOLIST\TODOLIST\TODOLIST\bin\Debug\net472\TODOLIST.exe.config
+C:\Users\paulg\TODOLIST\TODOLIST\TODOLIST\bin\Debug\net472\TODOLIST.exe
+C:\Users\paulg\TODOLIST\TODOLIST\TODOLIST\bin\Debug\net472\TODOLIST.pdb
+C:\Users\paulg\TODOLIST\TODOLIST\TODOLIST\obj\Debug\net472\TODOLIST.csproj.AssemblyReference.cache
+C:\Users\paulg\TODOLIST\TODOLIST\TODOLIST\obj\Debug\net472\TODOLIST.AssemblyInfoInputs.cache
+C:\Users\paulg\TODOLIST\TODOLIST\TODOLIST\obj\Debug\net472\TODOLIST.AssemblyInfo.cs
+C:\Users\paulg\TODOLIST\TODOLIST\TODOLIST\obj\Debug\net472\TODOLIST.csproj.CoreCompileInputs.cache
+C:\Users\paulg\TODOLIST\TODOLIST\TODOLIST\obj\Debug\net472\TODOLIST.exe
+C:\Users\paulg\TODOLIST\TODOLIST\TODOLIST\obj\Debug\net472\TODOLIST.pdb
