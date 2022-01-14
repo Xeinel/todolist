@@ -53,7 +53,7 @@ namespace TODOLIST
             Console.ForegroundColor = ConsoleColor.Cyan; 
             Console.WriteLine("Adding {0} to the todo list with the status : {1}...", things, status);
             StreamWriter sw = new StreamWriter(path,true);
-            sw.WriteLine("{0} , {1}", things, status);
+            sw.WriteLine("{0},{1}", things, status);
             sw.Close();
         }
 
@@ -69,7 +69,7 @@ namespace TODOLIST
                 if (line[0] != '#' && line.Contains(","))
                 {
                     tabl = line.Split(',');
-                    if(tabl[1] == " NOT DONE")
+                    if(tabl[1] == "NOT DONE")
                         ndone.Add(tabl[0],"NOT DONE");
                     else
                     {
@@ -93,6 +93,41 @@ namespace TODOLIST
             foreach (KeyValuePair<string,string> nd in ndone)
             {
                 Console.WriteLine("{0}", nd.Key);
+            }
+        }
+
+        public void ModifyStatus()
+        {
+            Console.WriteLine("What status do you want to modify ? (Write the name of the things that you had registered in your todo list");
+            string things = Console.ReadLine();
+            if(things == null)
+                Console.Error.WriteLine("Error");
+            bool found = false;
+            foreach (KeyValuePair<string,string> status in todo)
+            {
+                if (status.Key == things && status.Value == "NOT DONE")
+                {
+                    string v = status.Value;
+                    todo.Remove(status.Key);
+                    todo.Add(v,"DONE");
+                    StreamWriter sw = new StreamWriter(path,true);
+                    sw.WriteLine("{0},{1}", things, status);
+                    sw.Close();
+                    found = true;
+                }
+            }
+
+            if (!found)
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("Unfoundable elements !");
+                Console.ForegroundColor = ConsoleColor.White;
+            }
+            else
+            {
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine("Status had been modified successfuly");
+                Console.ForegroundColor = ConsoleColor.White;
             }
         }
     }

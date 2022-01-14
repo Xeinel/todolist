@@ -52,11 +52,9 @@ namespace TODOLIST
             }
             
             if (a == 1)
-            {
                 t.Add();
-            }
             else if (a == 2)
-                Console.WriteLine("Which status do you want to modify ?");
+                t.ModifyStatus();
             else if (a == 3)
                 t.checkList();
         }
